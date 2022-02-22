@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Nacho/DAM2/MOVILES/FIT4APP/app/src/main/res/layout/activity_login.xml" value="0.20520833333333333" />
+        <entry key="..\:/Nacho/DAM2/MOVILES/FIT4APP/app/src/main/res/layout/activity_marcas_usuario.xml" value="0.20520833333333333" />
+        <entry key="..\:/Nacho/DAM2/MOVILES/FIT4APP/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.20520833333333333" />
+        <entry key="..\:/Nacho/DAM2/MOVILES/FIT4APP/app/src/main/res/layout/marca_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Nacho/DAM2/MOVILES/FIT4APP/app/src/main/res/layout/test_row_item.xml" value="0.5" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_club.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_dieta_usuario.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_login.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_marcas_usuario.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_prueba_datos.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_prueba_login.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/activity_trainings.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/marca_item.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/test_row_item.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/CBMSO/AndroidStudioProjects/FitUapp/app/src/main/res/layout/user_item.xml" value="0.12273550724637682" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/layout/activity_club.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/layout/activity_dieta_usuario.xml" value="0.10960144927536232" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/layout/activity_marcas_usuario.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.2" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/layout/marca_item.xml" value="0.2" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/layout/user_item.xml" value="0.10960144927536232" />
+        <entry key="..\:/Users/CBMSO/Downloads/FITAPPV10/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/activity_club.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/activity_dieta_usuario.xml" value="0.5" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/activity_marcas_usuario.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/activity_trainings.xml" value="0.22" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/marca_item.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/test_row_item.xml" value="0.33" />
+        <entry key="..\:/Users/dam/Desktop/Nacho/PDM/FITAPP5/app/src/main/res/layout/user_item.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

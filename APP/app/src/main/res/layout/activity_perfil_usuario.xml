@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:forceDarkAllowed="false"
+    tools:context=".PerfilUsuario">
+
+    <RelativeLayout
+        android:id="@+id/cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grad"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:id="@+id/imgUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_border">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="250dp"
+                tools:ignore="MissingConstraints">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="250dp">
+
+                    <ImageView
+                        android:id="@+id/iv_foto"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/grad"
+                        android:scaleType="fitXY" />
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvUsername_marcas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6sp"
+            android:layout_marginBottom="12sp"
+            android:fontFamily="sans-serif-light"
+            android:text="Nachete"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+
+        <TextView
+            android:id="@+id/tvMarca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUsername_marcas"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:text="MEJOR MARCA"
+            android:textAllCaps="true"
+            android:textColor="#805926"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mejorMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cabecera"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#805926"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="10K"
+                    android:textColor="#FFB24D"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#FFB24D"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:text="35'57''"
+                    android:textColor="#805926"
+                    android:textSize="25sp" />
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mejorMarca"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageButton
+                    android:id="@+id/ibEntrenamientos"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:accessibilityLiveRegion="none"
+                    android:background="@drawable/fondoib"
+                    android:contentDescription="entrenamiento"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/imgtraining" />
+
+                <ImageButton
+                    android:id="@+id/ibDietas"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:accessibilityLiveRegion="none"
+                    android:background="@drawable/fondoib"
+                    android:contentDescription="dietas"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/imgdieta" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageButton
+                    android:id="@+id/ibMarcas"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:accessibilityLiveRegion="none"
+                    android:background="@drawable/fondoib"
+                    android:contentDescription="marcas"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/imgmarcabt" />
+
+                <ImageButton
+                    android:id="@+id/ibClub"
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:accessibilityLiveRegion="none"
+                    android:background="@drawable/fondoib"
+                    android:contentDescription="ranking"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/imglogoclub" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
